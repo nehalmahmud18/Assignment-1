@@ -1,0 +1,79 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 20px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 32px;
+    font-family: ;
+}
+.btn-primary{
+    width: 116px;
+    height: 52px;
+    background-color: #e7f3f0;
+    stroke: #006A50;
+    justify-content: center;
+  font-weight: 600;
+  font-size:  20px;
+  color:#006A50 ;
+  border-radius: 8px;
+  padding: 15px 15px ;
+
+
+
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+body{
+    border: 20px 10px 20px 10px;
+    background-color: green;
+    
+
+}
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.banner{
+   background-color: #C6E4D6;
+   padding: 80px 100px 80px 100px;
+   border-radius: 15px;
+    display: flex; 
+  justify-content: space-between;
+  margin: 0 100px 0 100px;
+}
+
+.banner-subtitle{
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+  font-size: 24px;
+  color:#0E0E0E
+  
+}
+.banner-title{
+    font-weight: bold;
+    font-family: "Fira Sans", serif;
+    font-size: 56px;
+
+}
+
+.pillar-of-bd{
+    display: flex;
+    gap: 24px;
+    border-radius: 5px;
+   
+   
+    
+
+}
+.pillar{
+    box-shadow: 0px 6px 50px 0px #eee8e8;
+    border-radius: 5px;
+    padding: 24px 24px 24px 24px;
+}
