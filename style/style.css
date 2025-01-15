@@ -189,6 +189,8 @@ body{
 }
 .news-breaking{
     margin-left: 32px;
+    padding: 0px;
+    
     
 }
 .news-title{
@@ -219,4 +221,57 @@ body{
     border: none;
     color: #FFFFFF;
     font-family: "Fira Sans", serif;
+}
+.donate-section{
+
+
+ margin-left: 100px;
+margin-right: 100px;
+}
+.donation-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.donation-description{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+
+}
+.amount-buttons {
+    display: flex;
+    justify-content:center;
+
+    gap: 24px;
+    margin-bottom: 20px;
+  }
+
+
+.amount-btn {
+    padding: 40px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.primary{
+
+ background-color: #C6E4D6;
+  border-color: #77c87c;
+  color: #2b612c;
+}
+.custom-amount{
+    width: 1032px
+    padding: 10px;
+    font-size: 14px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
 }
