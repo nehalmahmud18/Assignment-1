@@ -267,11 +267,37 @@ margin-right: 100px;
   color: #2b612c;
 }
 .custom-amount{
-    width: 1032px
-    padding: 10px;
+    width: 660px;
+    height: 32px;
+    padding-left: 550px;
+    padding-right: 20px;
     font-size: 14px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
+    margin: px 0;
+   stroke: #f6f4f4;
+   stroke-width: 10%;
     border-radius: 5px;
+   
+
+}
+::placeholder{
+    opacity: 50%;
+    word-spacing: 5px;
+    text-size-adjust: 40px;
+}
+.done-button{
+    width: 151px;
+    height: 56px;
+    margin-top: 32px ;
+    margin-left: 550px;
+
+    padding: 17px 34px 17px 34px;
+    border-radius: 8px;
+    background-color: #006A50;
+    border: none;
+    color: #FFFFFF;
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+
+
 
 }
